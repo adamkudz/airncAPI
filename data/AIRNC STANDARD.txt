@@ -1,0 +1,89 @@
+    A: Airway route
+    D: Direct route
+    F: Flight plan route
+    G: GPS route
+    MA: Missed approach procedure
+    M: Military training route
+    P: Procedure turn route
+    R: Radar vector route
+    T: Terminal arrival route (STAR)
+    V: Visual approach procedure
+
+    AP: Precision approach procedure (e.g. ILS, MLS, GLS)
+    LP: Low approach procedure
+    LDA: Localizer type directional approach procedure
+    MDA: Minimum descent altitude procedure
+    NDB: Non-directional beacon approach procedure
+    SDF: Simplified directional facility approach procedure
+    T: Terminal arrival route (STAR)
+    V: Visual approach procedure
+
+SUSAP KABEK6CASOMY K60    W     N40365296W075220481                       W0120     NAR           ASOMY                    094842008
+
+The first field in each record is the record identifier, which specifies the type of data contained in the record. In this case, the record identifier is "SUSAP", which stands for "Supplementary Airport" and indicates that the record contains information about an airport or other location.
+
+The second field is the location identifier, which is a combination of letters and numbers that uniquely identifies the location. In this case, the location identifier appears to consist of the airport identifier "KABE" followed by a route designator "K6", which may indicate that the location is a waypoint on a route with the designator "K6".
+
+
+Here is a list of some common approach prefixes for precision approaches:
+
+    AP: Precision approach procedure
+    I: ILS approach procedure
+    M: MLS approach procedure
+    G: GNSS approach procedure
+
+
+    AIRPORT: Airport data
+    APPROACH: Approach data
+    ARTCC: Air Route Traffic Control Center data
+    COUTA: Control Area data
+    DEP: Departure data
+    EAP: Enroute Arrival data
+    EAPCH: Enroute Arrival Procedure data
+    ENRT: Enroute data
+    ENRTWP: Enroute Waypoint data
+    FIR: Flight Information Region data
+    HOLD: Holding data
+    MSA: Minimum Safe Altitude data
+    OCEANIC: Oceanic data
+    PAR: Parachute Jumping Area data
+    PENALTY: Penalty data
+    PENALTYINT: Penalty Intermediate Fix data
+    PROC: Procedure data
+    PROCMIN: Procedure Minimum Altitude data
+    PROCSEG: Procedure Segment data
+    RADIO: Radio data
+    ROUTE: Route data
+    SCANEAENRT: Scanned Enroute Waypoint data
+    SCANPEAPCH: Scanned Approach Waypoint data
+    SID: Standard Instrument Departure data
+    SIDINT: Standard Instrument Departure Intermediate Fix data
+    SIDPROC: Standard Instrument Departure Procedure data
+    SUSAP: Supplementary Airport data
+    SUSAEAENRT: Supplementary Enroute Waypoint data
+    SUSAPEAPCH: Supplementary Approach Waypoint data
+    SUSAER: Supplementary Enroute Route data
+    SUSAP: Supplementary Airport data
+    SUSAH: Hospital data
+  
+
+    TERM: Terminal data
+    TERMINT: Terminal Intermediate Fix data
+    TERMPROC: Terminal Procedure data
+
+
+    Record identifier: "SCANEAENRT"
+    Location identifier: A combination of letters and numbers that uniquely identifies the location within the navigation data
+    Location type: A code that specifies the type of location, such as "A" for airport, "D" for DME, and "V" for VOR
+    Latitude and longitude coordinates: The latitude and longitude coordinates of the location
+    Magnetic course: The magnetic course to the location
+    Magnetic course units: A code that specifies the units of the magnetic course, such as "D" for degrees and "M" for minutes
+    Distance: The distance to the location
+    Distance units: A code that specifies the units of the distance, such as "N" for nautical miles and "K" for kilometers
+    Location name: The name of the location
+    Frequency: The frequency of the location, if applicable
+    Frequency units: A code that specifies the units of the frequency, such as "K" for kilohertz and "M" for megahertz
+    Remarks: Additional information or remarks about the location
+
+
+    

@@ -1,0 +1,98 @@
+
+
+AIRPORT WAYPOINTS
+
+        "C" ROW                        COORDS                              CHART                  NAME           
+
+SUSAP KABEK6CASOMY K60    W     N40365296W075220481                       W0120     NAR           ASOMY                    102872008
+SUSAP KABEK6CBEHEM K60    W     N40352533W075190824                       W0120     NAR           BEHEM                    102882008
+SUSAP KABEK6CBOUNC K60    R     N40455716W075260960                       W0120     NAR           BOUNC                    102892008
+SUSAP KABEK6CBURAY K60    W     N40315224W075120000                       W0120     NAR           BURAY                    102902201
+SUSAP KABEK6CCAVRU K60    R     N40434648W075360188                       W0119     NAR           CAVRU                    102912008
+SUSAP KABEK6CCICAT K60    W     N40502379W075160502                       W0121     NAR           CICAT                    102922008
+SUSAP KABEK6CFINRA K60    W     N40383420W075061510                       W0121     NAR           FINRA                    102932102
+SUSAP KABEK6CFONUP K60    W     N40463188W075142225                       W0121     NAR           FONUP                    102942008
+SUSAP KABEK6CGEBLE K60    W     N40365638W075300664                       W0119     NAR           GEBLE                    102952102
+SUSAP KABEK6CHADAD K60    W     N40243336W075333326                       W0118     NAR           HADAD                    102962201
+SUSAP KABEK6CHASIS K60    R     N40455359W075402044                       W0118     NAR           HASIS                    102972201
+SUSAP KABEK6CIZKIP K60    C     N40404368W075295108                       W0119     NAR           IZKIP                    102982102
+SUSAP KABEK6CJAREV K60    W     N40420322W075461189                       W0118     NAR           JAREV                    102992008
+SUSAP KABEK6CJISTO K60    C     N40304747W075400769                       W0118     NAR           JISTO                    103002008
+SUSAP KABEK6CKOCEC K60    W     N40364181W075214247                       W0120     NAR           KOCEC                    103012008
+SUSAP KABEK6CLOCID K60    W     N40452427W075392075                       W0118     NAR           LOCID                    103022201
+SUSAP KABEK6CMOOVY K60    C     N40423987W075334661                       W0119     NAR           MOOVY                    103032008
+SUSAP KABEK6CMUDRE K60    R     N40470520W075132732                       W0121     NAR           MUDRE                    103042008
+SUSAP KABEK6CMUSYK K60    C     N40432442W075193077                       W0120     NAR           MUSYK                    103052102
+SUSAP KABEK6CNENTE K60    R     N40412559W075224591                       W0120     NAR           NENTE                    103062008
+SUSAP KABEK6CPIMUE K60    W     N40421658W075051344                       W0121     NAR           PIMUE                    103072201
+SUSAP KABEK6CRIRAE K60    W     N40541568W075174799                       W0121     NAR           RIRAE                    103082008
+SUSAP KABEK6CROUFF K60    R     N40393106W075263012                       W0119     NAR           ROUFF                    103092201
+SUSAP KABEK6CSAYOV K60    W     N40374788W075473288                       W0118     NAR           SAYOV                    103102008
+SUSAP KABEK6CSHAGY K60    C     N40345893W075331836                       W0119     NAR           SHAGY                    103112008
+SUSAP KABEK6CSURGE K60    W     N40372778W075291540                       W0119     NAR           SURGE                    103122102
+SUSAP KABEK6CTIKLE K60    W     N40510298W075381773                       W0119     NAR           TIKLE                    103132008
+
+
+
+
+MISSED APPROACH STUFF
+
+
+SUSAP KABEK6FI06   AETX   010ETX  K6D 0V       IF                                             18000                 0 NS   103141307
+SUSAP KABEK6FI06   AETX   020JISTOK6PC0EY      TF                                 + 03000                           0 NS   103151310
+SUSAP KABEK6FI06   AETX   030JISTOK6PC0EE AR   HF IABEK6      243301410633T010PI  + 03000                           0 NS   103161310
+SUSAP KABEK6FI06   I      010JISTOK6PC0E  I    IF IABEK6      24330141        PI  J 030000240018000                 0 NS   103171310
+SUSAP KABEK6FI06   I      020SHAGYK6PC0E  F    CF IABEK6      2433007506300067PI  H 0240002400            ETX   K6D 0 NS   103182105
+SUSAP KABEK6FI06   I      030RW06 K6PG0GY M    CF IABEK6      2433001306300061PI    00450             -300          0 NS   103191307
+SUSAP KABEK6FI06   I      040         0  M     VI                     0633                                          0 NS   103201307
+SUSAP KABEK6FI06   I      050MUDREK6PC0EY      CF STW K6      2431020506310130D   + 03000                           0 NS   103211901
+
+
+                    IAFS
+
+SUSAP KABEK6FI24   AMUDRE 010MUDREK6PC0EE AR   HF IGUWK6      063301362433T010PI  + 03000     18000                 0 NS   103341510
+SUSAP KABEK6FI24   ASTW   010STW  K6D 0V  A    FC STW K6      0000000024310185D   + 03000     18000                 0 NS   103351510
+SUSAP KABEK6FI24   ASTW   020MUDREK6PC0EE B    CF IGUWK6      0633013624310020PI  + 03000                           0 NS   103361510
+SUSAP KABEK6FI24   I      010MUDREK6PC0E  I    IF IGUWK6      06330136        PI  J 030000240018000                 0 NS   103372003
+SUSAP KABEK6FI24   I      020MUSYKK6PC0E  F    CF IGUWK6      0633007724300059PI  H 0240002400            ETX   K6D 0 NS   103382003
+SUSAP KABEK6FI24   I      030RW24 K6PG0GY M    CF IGUWK6      0633001624300062PI    00435             -300          0 NS   103392003
+SUSAP KABEK6FI24   I      040         0  M     CA                     2433        + 00900                           0 NS   103401510
+SUSAP KABEK6FI24   I      050ETX  K6D 0VY      DF                                 + 03000                           0 NS   103411510
+SUSAP KABEK6FI24   I      060ETX  K6D 0VE  R   HM                     1123T010    + 03000                           0 NS   103421510
+SUSAP KABEK6FL06   AETX   010ETX  K6D 0V       IF                                             18000                 0 NS   103431307
+SUSAP KABEK6FL06   AETX   020JISTOK6PC0EY      TF                                 + 03000                           0 NS   103441310
+SUSAP KABEK6FL06   AETX   030JISTOK6PC0EE AR   HF IABEK6      243301410633T010PI  + 03000                           0 NS   103451310
+
+         "G"            LEN   ID     COORDS                             ELE
+
+SUSAP KABEK6GRW06    00 7599 06 30 N40384913W075270228         +0085600 394 000057150 IIABE2                                     104541901
+SUSAP KABEK6GRW13    00 5800 13 50 N40391871W075265916               00 383 000056150 IIBXY1                                     104551606
+SUSAP KABEK6GRW24    00 7599 24 30 N40393296W075255053         +0081600 380 051055150 IIGUW1                                     104562003
+SUSAP KABEK6GRW31    00 5800 31 50 N40384750W075255605               00 379 000054150 R                                          104571913
+
+        "I"     ID       FREQ             COORDS      CRS       MAG  
+
+SUSAP KABEK6I IABE2   011070 RW06 N40393904W075254057 0633 N40385921W075265259 0474 12210496300 W01205700384                     104581901
+SUSAP KABEK6I IBXY1   011190 RW13 N40384591W075255284 1350 N40391082W075265034 0295 10020600300 W01205600383                     104591605
+SUSAP KABEK6I IGUW1   010855 RW24 N40383458W075272609 2433 N40392913W075260407 2353 10560424300 W01205500380   
+
+
+        "P"                                                                    ELE
+
+SUSAP KABEK6PR06   RW06 001 0000 W06A0 N4038491370W0752702 2805 +008560300 N4039449205W0752530 95701067504 40000564 F4003504ACEEE31104611307
+SUSAP KABEK6PR06   RW06 002E      +01200+01200LPV       69432                                                              104621307
+SUSAP KABEK6PR13   RW13 001 0000 W13A0 N4039186995W0752659 1200 +008240300 N4038301290W0752520 95851067509 84000560 F40035004EA4BC6104631605
+SUSAP KABEK6PR13   RW13 002E      +01167+01167LPV       82532                                                              104641307
+SUSAP KABEK6PR24   RW24 001 0000 W24A0 N4039329625W0752550 5345 +008160300 N4038371830W0752721 85751067505 92000553 F4003506C6459A5104651510
+SUSAP KABEK6PR24   RW24 002E      +01160+01160LPV       40332                                                              104661510
+SUSAP KABEK6PR31   RW31 001 0000 W31A0 N4038474995W0752556 0470 +008130300 N4039360600W0752734 22501067509 84000541 F400500F0F234E9104671307
+
+
+        "S"
+
+SUSAP KABEK6S ETX  K6D                 0   080 260 0362526008002625                                                       M   104691307
+SUSAP KABEK6S FJC  K6D                 0   090 270 0362527009002925                                                       M   104701704
+SUSAP KABEK6S RW06 K6PG                0   18018003625                                                                  M   104710804
+SUSAP KABEK6S RW13 K6PG                0   18018003625                                                                  M   104721203
+SUSAP KABEK6S RW24 K6PG                0   18018003625                                                                  M   104731510
+SUSAP KABEK6S RW31 K6PG                0   18018003625                                                                  M   104740804
