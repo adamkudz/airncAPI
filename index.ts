@@ -77,15 +77,28 @@ type EnrouteWaypoint = {
 const getFileSection = function (
     files: string[],
     section: string,
-    zone: string
+    zone?: string
 ) {
     const fileSection: string[] = [];
     for (let file of files) {
-        if (file.split(" ")[0] === section && file.slice(10, 12) === zone)
-            fileSection.push(file);
+        if (file.split(" ")[0] === section) fileSection.push(file);
     }
     return fileSection;
 };
+// const getFileZones = function (
+//     files: string[],
+//     section: string,
+//     zone?: string
+// ) {
+//     const fileSection: string[] = [];
+//     for (let file of files) {
+//         if (file.split(" ")[0] === section && file.slice(10, 12) === zone)
+//             fileSection.push(file);
+//     }
+//     return fileSection;
+// };
+
+console.log(files);
 
 const getEnrouteWaypoints = function (rows: string[]) {
     const wpts: object[] = [];
@@ -141,14 +154,32 @@ const getAirports = function (rows: string[], region?: string) {
     return airports;
 };
 
-const airportResults = getAirports(files, "K7");
+// const airportResults = getAirports(files, "K7");
 // const enrouteWaypointResults = getEnrouteWaypoints(files);
-// const waypointFiles = getFileSection(files, "SUSAEAENRT");
-// const airportFiles = getFileSection(files, "SUSAP", "K7");
+const waypointFiles = getFileSection(files, "SUSAEAENRT");
+const airportFiles = getFileSection(files, "SUSAP");
+const airwayFiles = getFileSection(files, "SUSAER");
+const scanEr = getFileSection(files, "SCANER");
+const scanEAEnroute = getFileSection(files, "SCANEAENRT");
+const arrivals = getFileSection(files, "SCANP");
 
-console.log(airportResults[500]);
+// console.log(airportResults[500]);
 
-fs.writeFileSync("test.json", JSON.stringify(airportResults));
+fs.writeFileSync("sections/airports.txt", airportFiles.join("\n"));
+fs.writeFileSync("sections/waypoints.txt", waypointFiles.join("\n"));
+fs.writeFileSync("sections/airways.txt", airwayFiles.join("\n"));
+fs.writeFileSync("sections/scanEr.txt", scanEr.join("\n"));
+fs.writeFileSync("sections/scanEAEnroute.txt", scanEAEnroute.join("\n"));
+fs.writeFileSync("sections/arrivals.txt", arrivals.join("\n"));
+
+console.log(
+    waypointFiles.length,
+    airportFiles.length,
+    airwayFiles.length,
+    scanEr.length,
+    scanEAEnroute.length,
+    arrivals.length
+);
 
 // async function getAirports(airncFile: string[], section: string = "SUSAP") {
 //     const airports: AirportData[] = [];
